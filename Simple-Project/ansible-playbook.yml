@@ -16,7 +16,7 @@
       ignore_errors: yes
 
     - name: build docker image using the Dockerfile
-      command: docker build -t aldoun/comingsoon-page .
+      command: docker build -t comingsoon-page .
 
   #  - name: Push Image to dockerhub
    #   command: docker push aldoun/comingsoon-page
